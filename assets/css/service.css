@@ -129,10 +129,10 @@ Author url: https://themeforest.net/user/website_stock
   }
 }
 .about-us .content .subtitle {
-  color: #d90a2c;
+  color: #399918;
 }
 .about-us .content .subtitle::after {
-  background-color: #d90a2c;
+  background-color: #399918;
 }
 .about-us .choose-up-grid-item {
   border: 1px solid rgba(169, 169, 169, 0.1882352941);
@@ -214,7 +214,7 @@ Author url: https://themeforest.net/user/website_stock
   }
 }
 .about-us .choose-up-grid-item:hover a {
-  background-color: #d90a2c;
+  background-color: #399918;
 }
 
 .project-completed .content .play-btn {
@@ -249,10 +249,10 @@ Author url: https://themeforest.net/user/website_stock
   transition: all 200ms;
 }
 .project-completed .content .play-btn a {
-  border: 1px solid #d90a2c;
+  border: 1px solid #399918;
 }
 .project-completed .content .project-count {
-  background-color: #d90a2c;
+  background-color: #399918;
 }
 
 .solution-today .animated-circle.left {
@@ -260,11 +260,11 @@ Author url: https://themeforest.net/user/website_stock
   left: -13%;
 }
 .solution-today .ready-for-future a {
-  background-color: #d90a2c;
+  background-color: #399918;
   border: 1px solid transparent;
 }
 .solution-today .ready-for-future a:hover {
   background-color: transparent;
-  border: 1px solid #d90a2c;
+  border: 1px solid #399918;
   color: #fff;
 }/*# sourceMappingURL=service.css.map */

@@ -102,10 +102,10 @@ Author url: https://themeforest.net/user/website_stock
 }
 
 .why-choose-us .section-title .subtitle {
-  color: #d90a2c;
+  color: #399918;
 }
 .why-choose-us .section-title .subtitle::after {
-  background-color: #d90a2c;
+  background-color: #399918;
 }
 .why-choose-us .image-wrap {
   display: flex;
@@ -164,7 +164,7 @@ Author url: https://themeforest.net/user/website_stock
   -o-transition: all linear 0.3s;
 }
 .why-choose-us .image-wrap .image:hover .img {
-  background-color: #d90a2c;
+  background-color: #399918;
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -172,7 +172,7 @@ Author url: https://themeforest.net/user/website_stock
   -o-transition: all linear 0.3s;
 }
 .why-choose-us .image-wrap .image:hover a {
-  background-color: #d90a2c;
+  background-color: #399918;
   color: #fff;
 }
 .why-choose-us .image-wrap .image-line {
@@ -189,7 +189,7 @@ Author url: https://themeforest.net/user/website_stock
 .why-choose-us .image-wrap .image-line .line {
   height: 256px;
   width: 28px;
-  background: #d90a2c;
+  background: #399918;
   border-radius: 15px;
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
@@ -205,12 +205,12 @@ Author url: https://themeforest.net/user/website_stock
 }
 
 .upcoming-events .content .button:hover {
-  border-color: #d90a2c;
-  color: #d90a2c;
+  border-color: #399918;
+  color: #399918;
   background-color: transparent;
 }
 .upcoming-events .content .button:hover svg path {
-  fill: #d90a2c;
+  fill: #399918;
 }
 
 .industry-expert {
@@ -227,10 +227,10 @@ Author url: https://themeforest.net/user/website_stock
   margin-bottom: 0;
 }
 .industry-expert .section-title .subtitle {
-  color: #d90a2c;
+  color: #399918;
 }
 .industry-expert .section-title .subtitle::after {
-  background-color: #d90a2c;
+  background-color: #399918;
 }
 .industry-expert .section-title .title {
   margin-bottom: 70px;
@@ -278,7 +278,7 @@ Author url: https://themeforest.net/user/website_stock
   }
 }
 .industry-expert .grid-item p {
-  color: #d90a2c;
+  color: #399918;
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -352,31 +352,31 @@ Author url: https://themeforest.net/user/website_stock
   color: #fff;
 }
 .industry-expert .grid-item .social-link li a:hover {
-  background-color: #d90a2c;
+  background-color: #399918;
 }
 
 .trusted-client-area .counting-part .counting-part-item .orb_graphic svg circle.progress {
-  stroke: #d90a2c;
+  stroke: #399918;
 }
 .trusted-client-area .counting-part .counting-part-item .orb_graphic .orb_value i {
-  color: #d90a2c;
+  color: #399918;
 }
 
 .our-clients .section-title .subtitle {
-  color: #d90a2c;
+  color: #399918;
 }
 .our-clients .section-title .subtitle::after {
-  background-color: #d90a2c;
+  background-color: #399918;
 }
 .our-clients .client-slider .slider-item .slider-item-style {
-  border: 1px dashed #d90a2c;
+  border: 1px dashed #399918;
 }
 .our-clients .client-slider .slider-item .slider-item-style .client-title-rating .client-title .img img {
-  border: 1px solid #d90a2c;
+  border: 1px solid #399918;
 }
 .our-clients .client-slider .swiper-pagination .swiper-pagination-bullet {
-  border: 1px solid #d90a2c;
-  background-color: #d90a2c;
+  border: 1px solid #399918;
+  background-color: #399918;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -387,5 +387,5 @@ Author url: https://themeforest.net/user/website_stock
   background-color: #001d21;
 }
 .our-clients .client-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active::after {
-  background-color: #d90a2c;
+  background-color: #399918;
 }/*# sourceMappingURL=about-us.css.map */
