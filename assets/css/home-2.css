@@ -98,7 +98,7 @@ Author url: https://themeforest.net/user/website_stock
 .banner {
   width: calc(100% - 105px);
   margin: 0 auto;
-  background-color: #d90a2c;
+  background-color: #399918;
   overflow: hidden;
   background-image: url("../images/home-2/banner.png");
   background-position: center;
@@ -724,7 +724,7 @@ Author url: https://themeforest.net/user/website_stock
   -o-transition: all linear 0.3s;
 }
 .why-choose-us .image-wrap .image:hover .img {
-  background-color: #d90a2c;
+  background-color: #399918;
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -732,7 +732,7 @@ Author url: https://themeforest.net/user/website_stock
   -o-transition: all linear 0.3s;
 }
 .why-choose-us .image-wrap .image:hover a {
-  background-color: #d90a2c;
+  background-color: #399918;
   color: #fff;
 }
 .why-choose-us .image-wrap .image-line {
