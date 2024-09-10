@@ -56,7 +56,7 @@
     <!-- navbar start -->
     <header class="header">
       <!-- topbar -->
-      
+
       <section class="banner">
         <div class="banner-img">
           <div class="overlay">
@@ -65,19 +65,15 @@
               <nav class="navbar navbar-expand-lg header--sticky">
                 <div class="container">
                   <a class="navbar-brand" href="index.html">
-                    <img class="img-fluid" src="assets/images/logo-1.png" alt="">
+                    <!-- Desktop logo -->
+                    <img class="img-fluid d-none d-lg-block" src="assets/images/logo line white 2 (4).png" alt="Desktop Logo">
+                    <!-- Mobile logo -->
+                    <img class="img-fluid d-block d-lg-none" src="assets/images/logo line white 2 (4).png" alt="Mobile Logo">
                   </a>
-                 
+
 
                   <div class="navbar-toggler" aria-expanded="false" role="navigation">
-                    <button class="nav-link search-btn"  type="button" data-bs-toggle="modal"
-                      data-bs-target="#exampleModal">
-                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M12.8223 11.873C13.0508 12.127 13.0508 12.5078 12.7969 12.7363L12.0859 13.4473C11.8574 13.7012 11.4766 13.7012 11.2227 13.4473L8.70898 10.9336C8.58203 10.8066 8.53125 10.6543 8.53125 10.502V10.0703C7.61719 10.7812 6.5 11.1875 5.28125 11.1875C2.36133 11.1875 0 8.82617 0 5.90625C0 3.01172 2.36133 0.625 5.28125 0.625C8.17578 0.625 10.5625 3.01172 10.5625 5.90625C10.5625 7.15039 10.1309 8.26758 9.44531 9.15625H9.85156C10.0039 9.15625 10.1562 9.23242 10.2832 9.33398L12.8223 11.873ZM5.28125 9.15625C7.05859 9.15625 8.53125 7.70898 8.53125 5.90625C8.53125 4.12891 7.05859 2.65625 5.28125 2.65625C3.47852 2.65625 2.03125 4.12891 2.03125 5.90625C2.03125 7.70898 3.47852 9.15625 5.28125 9.15625Z"
-                          fill="white" />
-                      </svg>
-                    </button>
+                    
                     <button class="toggle-btn" type="button" data-bs-toggle="offcanvas"
                       data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"
                       aria-label="Toggle navigation">
@@ -87,7 +83,7 @@
                   <div class="collapse navbar-collapse">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                       <span class="nav-link">Home</span>
+                        <span class="nav-link"> Home </span>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="about-us.html">About-us</a>
@@ -95,22 +91,14 @@
                       <li class="nav-item">
                         <a class="nav-link" href="service.html">Service</a>
                       </li>
-                      
-                      
-                      
+
+
+
                       <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                       </li>
                       <li class="nav-item">
-                        <button class="nav-link search-btn" type="button" data-bs-toggle="modal"
-                          data-bs-target="#exampleModal">
-                          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                              d="M12.8223 11.873C13.0508 12.127 13.0508 12.5078 12.7969 12.7363L12.0859 13.4473C11.8574 13.7012 11.4766 13.7012 11.2227 13.4473L8.70898 10.9336C8.58203 10.8066 8.53125 10.6543 8.53125 10.502V10.0703C7.61719 10.7812 6.5 11.1875 5.28125 11.1875C2.36133 11.1875 0 8.82617 0 5.90625C0 3.01172 2.36133 0.625 5.28125 0.625C8.17578 0.625 10.5625 3.01172 10.5625 5.90625C10.5625 7.15039 10.1309 8.26758 9.44531 9.15625H9.85156C10.0039 9.15625 10.1562 9.23242 10.2832 9.33398L12.8223 11.873ZM5.28125 9.15625C7.05859 9.15625 8.53125 7.70898 8.53125 5.90625C8.53125 4.12891 7.05859 2.65625 5.28125 2.65625C3.47852 2.65625 2.03125 4.12891 2.03125 5.90625C2.03125 7.70898 3.47852 9.15625 5.28125 9.15625Z"
-                              fill="white" />
-                          </svg>
-                        </button>
+                        
                       </li>
                     </ul>
                     <a href="contact.html" class="button primary-link-btn">
@@ -140,7 +128,7 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown"
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         Home
                       </a>
@@ -254,13 +242,35 @@
                   </div>
                 </div>
               </div>
+
               <!-- banner -->
               <div class="banner-section">
-                <h1 class="heading split-collab">Popular Services</h1>
-                <p class="description">
-                  <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right"></i>
-                  <span>Service</span>
+                <p class="subject">
+                  <span>
+                    <img src="assets/images/rocket (2).png" style="width: 21px;height: 21px;" alt="">
+                  </span>Business Consulting
                 </p>
+                <h1 class="heading split-collab">
+                  Your Partner in Comprehensive Bussiness Solutions
+                </h1>
+                <p class="description">
+                  To deliver unparalleled consulting services that drive growth, efficiency, and success for our
+                  clients.
+
+                </p>
+                <a href="contact.html" class="button primary-link-btn">Get Started
+                  <span><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M5.42497 6.19103C5.40287 5.99216 5.57965 5.81538 5.80062 5.81538H15.0372C15.2582 5.81538 15.4129 5.97006 15.4129 6.19103V15.4276C15.4129 15.6486 15.2361 15.8254 15.0372 15.8033L14.1754 15.8254C13.9544 15.8254 13.7777 15.6486 13.7998 15.4497L13.7777 8.57752L6.24256 16.1126C6.08788 16.2673 5.86691 16.2673 5.71223 16.1126L5.09351 15.4939C4.96093 15.3613 4.93883 15.1183 5.09351 14.9636L12.6286 7.42847H5.77852C5.57965 7.45056 5.40287 7.27379 5.40287 7.05282L5.42497 6.19103Z"
+                        fill="white" />
+                    </svg> </span></a>
+              </div>
+              <!-- line animation -->
+              <div class="section">
+                <span class="hscroll-line"></span>
+                <span class="hscroll-line"></span>
+                <span class="hscroll-line"></span>
+                <span class="hscroll-line"></span>
               </div>
             </div>
           </div>
@@ -300,7 +310,7 @@
                       <div class="img">
                         <img src="assets/images/analysis (1).png" alt="">
                       </div>
-                      <a href="service-details.html">Learn More</a>
+                      <!-- <a href="service-details.html">Learn More</a> -->
                     </div>
                   </div>
                 </div>
@@ -320,7 +330,7 @@
                       <div class="img">
                         <img id="icon" src="assets/images/budgeting.png" alt="">
                       </div>
-                      <a href="service-details.html">Learn More</a>
+                      <!-- <a href="service-details.html">Learn More</a> -->
                     </div>
                   </div>
                 </div>
@@ -347,7 +357,7 @@
                       <div class="img">
                         <img src="assets/images/brand-asset-management (1).png" alt="">
                       </div>
-                      <a href="service-details.html">Learn More</a>
+                      <!-- <a href="service-details.html">Learn More</a> -->
                     </div>
                   </div>
                 </div>
@@ -368,7 +378,7 @@
                       <div class="img">
                         <img src="assets/images/optimization (1).png" alt="">
                       </div>
-                      <a href="service-details.html">Learn More</a>
+                      <!-- <a href="service-details.html">Learn More</a> -->
                     </div>
                   </div>
                 </div>
@@ -396,7 +406,7 @@
                       <div class="img">
                         <img src="assets/images/it.png" alt="">
                       </div>
-                      <a href="service-details.html">Learn More</a>
+                      <!-- <a href="service-details.html">Learn More</a> -->
                     </div>
                   </div>
                 </div>
@@ -414,7 +424,7 @@
                       <div class="img">
                         <img src="assets/images/acquisition (1).png" alt="">
                       </div>
-                      <a href="service-details.html">Learn More</a>
+                      <!-- <a href="service-details.html">Learn More</a> -->
                     </div>
                   </div>
                 </div>
@@ -552,7 +562,7 @@
         <div class="row">
           <div class="col-12 col-md-6 col-lg-3">
             <div class="logo">
-              <img src="assets/images/logo line white.png" alt="logo">
+              <img src="assets/images/logo line white 2 (4).png" alt="logo">
             </div>
             <p>
               A farm is a plot of land that is used to grow crops and raise
@@ -585,7 +595,7 @@
                       fill="white" />
                   </svg>
                   Strategic planning
-</a>
+                </a>
               </li>
               <li>
                 <a href="service-details.html"><svg width="14" height="16" viewBox="0 0 14 16" fill="none"
@@ -595,7 +605,7 @@
                       fill="white" />
                   </svg>
                   Budgeting and forecasting
-</a>
+                </a>
               </li>
               <li>
                 <a href="service-details.html"><svg width="14" height="16" viewBox="0 0 14 16" fill="none"
@@ -614,9 +624,9 @@
                       d="M13.4294 7.99993C13.4294 8.19279 13.3651 8.32136 13.2366 8.44993L6.16512 15.5214C5.90798 15.7785 5.52227 15.7785 5.26512 15.5214C5.00798 15.2642 5.00798 14.8785 5.26512 14.6214L11.8866 7.99993L5.26512 1.3785C5.00798 1.12136 5.00798 0.735645 5.26512 0.478502C5.52227 0.221359 5.90798 0.221359 6.16512 0.478502L13.2366 7.54993C13.3651 7.6785 13.4294 7.80707 13.4294 7.99993ZM8.73655 7.54993L1.66512 0.478502C1.40798 0.221359 1.02227 0.221359 0.765123 0.478502C0.50798 0.735645 0.50798 1.12136 0.765123 1.3785L7.38655 7.99993L0.765123 14.6214C0.50798 14.8785 0.50798 15.2642 0.765123 15.5214C1.02227 15.7785 1.40798 15.7785 1.66512 15.5214L8.73655 8.44993C8.86512 8.32136 8.92941 8.19279 8.92941 7.99993C8.92941 7.80707 8.86512 7.6785 8.73655 7.54993Z"
                       fill="white" />
                   </svg>
-                 
-IT infrastructure assessment
-</a>
+
+                  IT infrastructure assessment
+                </a>
               </li>
               <li>
                 <a href="service-details.html"><svg width="14" height="16" viewBox="0 0 14 16" fill="none"
@@ -626,7 +636,7 @@ IT infrastructure assessment
                       fill="white" />
                   </svg>
                   Talent acquisition
-</a>
+                </a>
               </li>
             </ul>
           </div>
@@ -640,7 +650,7 @@ IT infrastructure assessment
                       d="M13.4294 7.99993C13.4294 8.19279 13.3651 8.32136 13.2366 8.44993L6.16512 15.5214C5.90798 15.7785 5.52227 15.7785 5.26512 15.5214C5.00798 15.2642 5.00798 14.8785 5.26512 14.6214L11.8866 7.99993L5.26512 1.3785C5.00798 1.12136 5.00798 0.735645 5.26512 0.478502C5.52227 0.221359 5.90798 0.221359 6.16512 0.478502L13.2366 7.54993C13.3651 7.6785 13.4294 7.80707 13.4294 7.99993ZM8.73655 7.54993L1.66512 0.478502C1.40798 0.221359 1.02227 0.221359 0.765123 0.478502C0.50798 0.735645 0.50798 1.12136 0.765123 1.3785L7.38655 7.99993L0.765123 14.6214C0.50798 14.8785 0.50798 15.2642 0.765123 15.5214C1.02227 15.7785 1.40798 15.7785 1.66512 15.5214L8.73655 8.44993C8.86512 8.32136 8.92941 8.19279 8.92941 7.99993C8.92941 7.80707 8.86512 7.6785 8.73655 7.54993Z"
                       fill="white" />
                   </svg>
-                 about us
+                  about us
                 </a>
               </li>
               <li>
@@ -650,7 +660,7 @@ IT infrastructure assessment
                       d="M13.4294 7.99993C13.4294 8.19279 13.3651 8.32136 13.2366 8.44993L6.16512 15.5214C5.90798 15.7785 5.52227 15.7785 5.26512 15.5214C5.00798 15.2642 5.00798 14.8785 5.26512 14.6214L11.8866 7.99993L5.26512 1.3785C5.00798 1.12136 5.00798 0.735645 5.26512 0.478502C5.52227 0.221359 5.90798 0.221359 6.16512 0.478502L13.2366 7.54993C13.3651 7.6785 13.4294 7.80707 13.4294 7.99993ZM8.73655 7.54993L1.66512 0.478502C1.40798 0.221359 1.02227 0.221359 0.765123 0.478502C0.50798 0.735645 0.50798 1.12136 0.765123 1.3785L7.38655 7.99993L0.765123 14.6214C0.50798 14.8785 0.50798 15.2642 0.765123 15.5214C1.02227 15.7785 1.40798 15.7785 1.66512 15.5214L8.73655 8.44993C8.86512 8.32136 8.92941 8.19279 8.92941 7.99993C8.92941 7.80707 8.86512 7.6785 8.73655 7.54993Z"
                       fill="white" />
                   </svg>
-                 Contact
+                  Contact
                 </a>
               </li>
               <li>
@@ -662,7 +672,7 @@ IT infrastructure assessment
                   </svg>
                   Services</a>
               </li>
-             
+
               <li>
                 <a href="team.html"><svg width="14" height="16" viewBox="0 0 14 16" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -697,7 +707,7 @@ IT infrastructure assessment
                 <img src="assets/images/home-1/footer-gallery-6.png" alt="">
               </a>
             </div>
-            
+
           </div>
         </div>
       </div>
